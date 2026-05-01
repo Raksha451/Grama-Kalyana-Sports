@@ -1,0 +1,52 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function incoming() {
+      return request.resource.data;
+    }
+
+    function existing() {
+      return resource.data;
+    }
+
+    function isValidId(id) {
+      return id is string && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    match /tournaments/{tournamentId} {
+      allow read: if true;
+      allow create: if isSignedIn() && isValidId(tournamentId);
+      allow update: if isSignedIn() && isValidId(tournamentId);
+      allow delete: if isSignedIn() && existing().ownerId == request.auth.uid;
+    }
+
+    match /teams/{teamId} {
+      allow read: if true;
+      allow create: if isSignedIn() && isValidId(teamId);
+      allow update: if isSignedIn() && isValidId(teamId);
+      allow delete: if isSignedIn();
+    }
+
+    match /players/{playerId} {
+      allow read: if true;
+      allow create: if isSignedIn() && isValidId(playerId);
+      allow update: if isSignedIn() && isValidId(playerId);
+      allow delete: if isSignedIn();
+    }
+
+    match /matches/{matchId} {
+      allow read: if true;
+      allow create: if isSignedIn() && isValidId(matchId);
+      allow update: if isSignedIn() && isValidId(matchId);
+      allow delete: if isSignedIn();
+    }
+  }
+}
