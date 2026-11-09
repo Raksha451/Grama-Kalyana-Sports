@@ -66,7 +66,7 @@ Explore the prototype here:
 - User registration and profile management.
 - Sports tournament creation and scheduling.
 - Team formation and player registration.
-- Match schedules, results, and leaderboards.
+- Match schedules, results and MOM(Man of the Match) selection.
 - Notifications and event announcements.
 - Community-level sports statistics and participation tracking.
 - Multilingual support for improved accessibility in rural communities.
@@ -81,10 +81,6 @@ Grama Kalyana Sports is an evolving project intended to explore the digitalizati
 
 Suggestions, feedback, and ideas for improving community sports management are welcome.
 
-## 📄 License
-
-A license has not yet been specified for this project.
-
 ---
 
-**Grama Kalyana Sports — Bringing Communities Together Through Sports.** 🏅
+**Grama Kalyana Sports - Bringing Communities Together Through Sports.** 🏅
