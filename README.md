@@ -66,24 +66,31 @@ Explore the prototype here:
 - Live recent matches screen
 <img width="1880" height="880" alt="image" src="https://github.com/user-attachments/assets/eb6bb290-e7fb-4725-9d16-25a0ae36ac2f" />
 
+
 - Live Match scoring screen
  <img width="1885" height="887" alt="image" src="https://github.com/user-attachments/assets/f81761a2-ac84-4038-ace0-7dd47f7c8650" />
+
 
 - Tournament creation screen
  <img width="1875" height="903" alt="image" src="https://github.com/user-attachments/assets/6083383f-58fc-4493-8115-8d52e7a2d5b9" />
 
+
 - Team Management screen
  <img width="1846" height="866" alt="image" src="https://github.com/user-attachments/assets/dc928332-e1e4-4927-82a7-401031949a8b" />
+
 
 - Player registration screen
  <img width="1853" height="894" alt="image" src="https://github.com/user-attachments/assets/c4bf7b0a-38c4-4223-bafc-b191ceff8f85" />
 
+
 - Match Schedule screen
  <img width="1859" height="884" alt="image" src="https://github.com/user-attachments/assets/f46ac7b4-480c-4f3f-a434-89edebf1cf1d" />
+
 
 - Score Updating screen
  <img width="1873" height="894" alt="image" src="https://github.com/user-attachments/assets/13024e03-119b-4807-8bfa-80c4ff09850a" />
  <img width="1829" height="801" alt="image" src="https://github.com/user-attachments/assets/6a27d149-bded-4343-bf82-a9450ef02b75" />
+
 
 - Scorecard sharing screen
   <img width="1892" height="879" alt="image" src="https://github.com/user-attachments/assets/9f46de18-e113-48b9-938c-61db003854b3" />
